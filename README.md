@@ -11,5 +11,7 @@ Lastly, openMP was used to speed up the computation of the element’s matrices 
 
 # This program can be subdivided into 5 main steps:
 
-* A middle ear mesh (GMSH) based on the works of Greef et al. is imported together with model’s several material properties (Young’s moduli, densities & internal damping loss factor). The GMSH file contains the information regarding the mesh’s domains (i.e., eardrum, malleus, incus, etc) and a group of boundaries conditions. The latter can be divided into 3 distinct boundary types:
-** Fixed boundary conditions: located at the outer circumference of the eardrum and the end of both tendons and ligaments
+1. A middle ear mesh (GMSH) based on the works of Greef et al. is imported together with model’s several material properties (Young’s moduli, densities & internal damping loss factor). The GMSH file contains the information regarding the mesh’s domains (i.e., eardrum, malleus, incus, etc) and a group of boundaries conditions. The latter can be divided into 3 distinct boundary types:
+  * Fixed boundary conditions: located at the outer circumference of the eardrum and the end of both tendons and ligaments
+  * Uniform & harmonic excitation pressures: set at the boundaries describing the lateral region of the eardrum. It simulates the sound stimuli that reaches that membrane
+  * Damping: the acoustic resistance of the cochlear fluid (which damps the stapes movement) is set at surface of the stapes footplate.
