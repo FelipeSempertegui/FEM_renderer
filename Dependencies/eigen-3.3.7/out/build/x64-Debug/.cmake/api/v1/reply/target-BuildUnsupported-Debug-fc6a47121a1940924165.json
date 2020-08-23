@@ -1,0 +1,2018 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies",
+			"ei_add_test_internal",
+			"ei_add_test"
+		],
+		"files" : 
+		[
+			"unsupported/test/CMakeLists.txt",
+			"cmake/EigenTesting.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 20
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 30
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 35
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 38
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 40
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 41
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 43
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 47
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 49
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 51
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 53
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 55
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 32
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 57
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 60
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 63
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 65
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 67
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 69
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 71
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 73
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 76
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 78
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 80
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 82
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 84
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 86
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 88
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 90
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 92
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 94
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 96
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 98
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 100
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 102
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 104
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 106
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 108
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 110
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 112
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 114
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 116
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 117
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 119
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 121
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 123
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 125
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 127
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 128
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 130
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 131
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 62
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 133
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 135
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 137
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 138
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 140
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 141
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 130
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 143
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 145
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 147
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 149
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 151
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 153
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 127
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 155
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 140
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 157
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 159
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 161
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 163
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 165
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 167
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 169
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 170
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 172
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 174
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 175
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 177
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 179
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 169
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 181
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 169
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 183
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 185
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 186
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 188
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 190
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 192
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 194
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 195
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 197
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 198
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 200
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 202
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 203
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 205
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 206
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 205
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 208
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 210
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 211
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 213
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 214
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 202
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 216
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 194
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 218
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 220
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 221
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 223
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 225
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 226
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 228
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 229
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 231
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 194
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 233
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 194
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 235
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 237
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 238
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 240
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 242
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 243
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 245
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 246
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 248
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 249
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 281,
+				"parent" : 251
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 252
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 194
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 254
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 271,
+				"parent" : 194
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 106,
+				"parent" : 256
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "matrix_power_10::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "cxx11_tensor_intdiv_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "autodiff_scalar_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "matrix_function_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "matrix_exponential_7::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "autodiff_scalar_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "NumericalDiff::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "cxx11_tensor_intdiv_7::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "polynomialsolver_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "autodiff_scalar_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "NonLinearOptimization::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "autodiff_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "autodiff_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "cxx11_tensor_io::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "alignedvector3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "autodiff_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "autodiff_scalar_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "cxx11_tensor_intdiv_6::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "matrix_power_12::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "cxx11_tensor_intdiv_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "autodiff_scalar_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "autodiff_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "autodiff_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "polynomialutils_8::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "matrix_square_root_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 66,
+			"id" : "matrix_power_8::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 68,
+			"id" : "matrix_exponential_9::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "matrix_exponential_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 72,
+			"id" : "matrix_square_root_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 74,
+			"id" : "matrix_exponential_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "BVH_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "polynomialsolver_6::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 81,
+			"id" : "matrix_exponential_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 83,
+			"id" : "matrix_exponential_8::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 85,
+			"id" : "matrix_exponential_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 87,
+			"id" : "matrix_exponential_6::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 89,
+			"id" : "BVH_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 91,
+			"id" : "matrix_function_7::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 93,
+			"id" : "BVH_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 95,
+			"id" : "matrix_exponential_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 97,
+			"id" : "matrix_power_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 99,
+			"id" : "polynomialutils_9::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 101,
+			"id" : "polynomialsolver_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 103,
+			"id" : "matrix_function_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 105,
+			"id" : "polynomialsolver_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 107,
+			"id" : "matrix_function_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 109,
+			"id" : "matrix_power_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 111,
+			"id" : "matrix_square_root_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 113,
+			"id" : "polynomialsolver_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 115,
+			"id" : "matrix_function_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 118,
+			"id" : "cxx11_tensor_dimension::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 120,
+			"id" : "matrix_function_6::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 122,
+			"id" : "matrix_square_root_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 124,
+			"id" : "polynomialsolver_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 126,
+			"id" : "matrix_function_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 129,
+			"id" : "minres_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 132,
+			"id" : "special_functions_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 134,
+			"id" : "matrix_square_root_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 136,
+			"id" : "matrix_power_11::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 139,
+			"id" : "cxx11_tensor_forced_eval::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 142,
+			"id" : "EulerAngles_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 144,
+			"id" : "special_functions_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 146,
+			"id" : "matrix_power_6::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 148,
+			"id" : "matrix_power_7::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 150,
+			"id" : "matrix_power_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 152,
+			"id" : "matrix_power_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 154,
+			"id" : "matrix_power_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 156,
+			"id" : "minres_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 158,
+			"id" : "EulerAngles_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 160,
+			"id" : "matrix_power_9::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 162,
+			"id" : "polynomialsolver_8::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 164,
+			"id" : "polynomialsolver_11::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 166,
+			"id" : "polynomialutils_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 168,
+			"id" : "polynomialsolver_10::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 171,
+			"id" : "sparse_extra_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 173,
+			"id" : "polynomialsolver_7::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 176,
+			"id" : "FFT::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 178,
+			"id" : "polynomialsolver_9::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 180,
+			"id" : "polynomialutils_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 182,
+			"id" : "sparse_extra_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 184,
+			"id" : "sparse_extra_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 187,
+			"id" : "levenberg_marquardt::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 189,
+			"id" : "polynomialutils_6::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 191,
+			"id" : "polynomialutils_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 193,
+			"id" : "polynomialutils_7::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 196,
+			"id" : "cxx11_tensor_uint128_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 199,
+			"id" : "splines::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 201,
+			"id" : "polynomialutils_4::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 204,
+			"id" : "gmres_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 207,
+			"id" : "kronecker_product_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 209,
+			"id" : "kronecker_product_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 212,
+			"id" : "cxx11_tensor_map::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 215,
+			"id" : "cxx11_tensor_assign::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 217,
+			"id" : "gmres_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 219,
+			"id" : "cxx11_tensor_uint128_1::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 222,
+			"id" : "cxx11_tensor_comparisons::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 224,
+			"id" : "cxx11_tensor_intdiv_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 227,
+			"id" : "cxx11_tensor_roundings::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 230,
+			"id" : "cxx11_tensor_sugar::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 232,
+			"id" : "cxx11_tensor_intdiv_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 234,
+			"id" : "cxx11_tensor_uint128_2::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 236,
+			"id" : "cxx11_tensor_uint128_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 239,
+			"id" : "cxx11_tensor_empty::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 241,
+			"id" : "cxx11_tensor_intdiv_3::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 244,
+			"id" : "cxx11_tensor_layout_swap::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 247,
+			"id" : "cxx11_tensor_math::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 250,
+			"id" : "cxx11_tensor_casts::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 253,
+			"id" : "cxx11_tensor_const::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 255,
+			"id" : "cxx11_tensor_uint128_5::@a8a634a79751858e4ce0"
+		},
+		{
+			"backtrace" : 257,
+			"id" : "cxx11_tensor_uint128_6::@a8a634a79751858e4ce0"
+		}
+	],
+	"id" : "BuildUnsupported::@a8a634a79751858e4ce0",
+	"name" : "BuildUnsupported",
+	"paths" : 
+	{
+		"build" : "unsupported/test",
+		"source" : "unsupported/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

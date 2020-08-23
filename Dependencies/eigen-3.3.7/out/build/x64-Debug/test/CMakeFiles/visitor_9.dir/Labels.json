@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Documents/learn C++/passo_17_final/Project1/Dependencies/eigen-3.3.7/test/visitor.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "visitor_9"
+	}
+}

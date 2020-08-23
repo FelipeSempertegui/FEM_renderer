@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Documents/learn C++/passo_17_final/Project1/Dependencies/eigen-3.3.7/unsupported/test/matrix_exponential.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "matrix_exponential_2"
+	}
+}
