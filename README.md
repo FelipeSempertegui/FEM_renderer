@@ -42,9 +42,30 @@ Link: https://software.intel.com/content/www/us/en/develop/articles/intel-math-k
 
 With the dependencies available in the repository and the Intel MKL enabled from Visual Studio, the following changes should take place under “Properties/ Configuration Properties”:
 
-## Intel Performance Libraries/Intel Math Kernel Library:
+### Intel Performance Libraries/Intel Math Kernel Library:
 * Use Intel MKL: select “Sequential”
 * Use ILP64 interfaces: select “No”
 * Use MPI Library: select “Intel(R) MPI”
 
+### C/C++:
+
+* General/ Additional Include Directories:
+   * $(SolutionDir)Dependencies\GLM\include
+   * $(SolutionDir)Dependencies\GLFW\include
+   * $(SolutionDir)Dependencies\glew-2.1.0\include
+   * $(SolutionDir)Dependencies\eigen-3.3.7
+   * $(SolutionDir)Dependencies\libigl-master\include
+   * $YOUR_PATH\IntelSWTools\compilers_and_libraries_2020.1.216\windows\mkl\include
+* Language/Open MP Support: Select “Yes (/openmp)”
+* Command Line: in “Additional Options” type “/Zc:twoPhase-”
+
+### Linker
+
+* General/Additional Library Directories:
+   * $(SolutionDir)Dependencies\glew-2.1.0\lib\Release\x64
+   * $(SolutionDir)Dependencies\GLFW\lib-vc2019
+   * $YOUR_PATH\IntelSWTools\compilers_and_libraries_2020.1.216\windows\mkl\lib\intel64_win
+   * $YOUR_PATH\IntelSWTools\compilers_and_libraries_2020.1.216\windows\compiler\lib\ia32_win
+
+* Input/Additional dependencies: "mkl_intel_thread.lib; libiomp5md.lib; mkl_sequential.lib; mkl_core.lib; mkl_intel_lp64.lib; glew32.lib; glfw3.lib; opengl32.lib; User32.lib; Gdi32.lib; Shell32.lib"
 
