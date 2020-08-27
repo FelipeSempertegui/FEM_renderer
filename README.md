@@ -1,6 +1,6 @@
 # Summary:
 
-This project was developed by Felipe Sempértegui between March and August 2020. It was built to both simulate the dynamic behavior of a human middle ear model via the Finite-Element-Method and to visualize the generated results with the OpenGL graphics API.
+This project was developed by Felipe Sempértegui between March and August 2020. It was built to both simulate the dynamic behavior of a human middle ear model via the Finite-Element-Method and to visualize the generated results with the OpenGL graphics API. An overview of this work & its outputs can be seen at https://youtu.be/mKMtpNN1xUQ .  
 
 The FEM solver was developed, so it could include the following peculiarities of a human middle ear:
 * Orthotropic material properties of the eardrum’s radial and circumferential fibers, whose directions are taken into account by including a local coordinate system
