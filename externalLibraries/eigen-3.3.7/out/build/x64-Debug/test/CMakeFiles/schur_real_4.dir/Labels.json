@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Felipe/source/repos/FelipeSempertegui/FEM_renderer_middleEar/Dependencies/eigen-3.3.7/test/schur_real.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "schur_real_4"
+	}
+}

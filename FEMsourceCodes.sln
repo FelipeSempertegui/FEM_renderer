@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FEMsourceCodes", "FEMsourceCodes\sourceReferences\FEMsourceCodes.vcxproj", "{756F916D-9FA6-4745-A6B5-9E403770E8E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Debug|x64.ActiveCfg = Debug|x64
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Debug|x64.Build.0 = Debug|x64
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Debug|x86.Build.0 = Debug|Win32
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Release|x64.ActiveCfg = Release|x64
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Release|x64.Build.0 = Release|x64
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Release|x86.ActiveCfg = Release|Win32
+		{756F916D-9FA6-4745-A6B5-9E403770E8E1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAE8811C-5F55-4EC5-9269-47CCCFEADFFD}
+	EndGlobalSection
+EndGlobal

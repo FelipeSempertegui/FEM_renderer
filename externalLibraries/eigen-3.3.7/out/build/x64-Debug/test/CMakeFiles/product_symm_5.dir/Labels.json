@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Felipe/source/repos/FelipeSempertegui/FEM_renderer_middleEar/Dependencies/eigen-3.3.7/test/product_symm.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "product_symm_5"
+	}
+}
