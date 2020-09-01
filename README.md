@@ -13,7 +13,10 @@ The user can also select several excitation frequencies after the assembly of th
 
 # Example:
 
-In this repository, the mesh of a human middle ear (processed from one of the geometries presented by [2]) is used as an example to show the code's features. Both the computed results from this particular mesh & an overview of this work can be seen at https://youtu.be/mKMtpNN1xUQ . All methods of the current FEM class are useful to represent several peculiarities a middle ear. They are described next:
+In this repository, the mesh of a human middle ear (processed from one of the geometries presented by [2]) is used as an example to show the code's features. Both the computed results from this particular mesh & an overview of this work can be seen at https://youtu.be/mKMtpNN1xUQ . 
+![](images/presentation.png)
+
+All methods of the current FEM class are useful to represent several peculiarities a middle ear. They are described next:
 * Orthotropic material properties of the eardrum’s radial and circumferential fibers, whose directions are taken into account by including a local coordinate system
 * Distinct domains (eardrum, malleus, incus, stapes, etc) with their respective material properties
 * Internal damping for all domains of the mesh and the impedance of the cochlear fluid
