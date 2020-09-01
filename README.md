@@ -36,24 +36,23 @@ All methods of the current FEM class are useful to represent several peculiariti
 4. The facets, nodes & generated displacements of the model’s external surface are extracted & converted from the complex domain to the time domain. The goal of this step is to prepare the data to be rendered with OpenGL. The following data are generated:
    * Deformed mesh of the model as a function of time
    * Colors at the vertices as functions of the nodes’ absolute displacements. The chosen color distribution is similar to the “thermal” colormap of matplotlib
-   * Vertex normals for every time-step, as it is a necessary input for the phong lightning set in our shader (“Project1/vertexFragmentShaders.shader”)
+   * Vertex normals for every time-step, as it is a necessary input for the phong lightning set in our shader (“FEMsourceCodes/vertexFragmentShaders.shader”)
    
 5. The data is visualized using the OpenGL API. The material is set as a combination of the data generated during the previous step (deformed mesh, colors and normals) and the vertex and fragment shaders.
 
 
 # Instructions for Visual Studio 2019:
 
-This program requires the addition of the following external libraries, most of which are present in this repository in the folder “Dependencies”:
+Firstly, it must be said that the code is ready to use only if it run and set in Visual Studio 2019 and the program requires the inclusion of the following external libraries:
 
-
-* Matrix manipulations and sparse linear system solvers: Eigen, Intel® MKL (called from the Eigen libraries) & openMP
+* Matrix manipulations & sparse linear system solvers: Eigen, Intel® MKL (called from the Eigen libraries) & openMP
 * Real-time rendering (dynamic draw calls & transformation matrices): GLFW, GLM & OpenGL
 
-Among the aforementioned dependencies, the only one, which must be acquired by the user himself is the Intel® MKL. After acquiring it via the Intel’s website (link shown below) and configuring it, a new tab is available in Visual Studio (Properties/Configuration Properties/Intel Performance Libraries).
+The mentioned dependencies must be acquired by user and enabled in Visual Studio. However, this repository also contains a “externalLibraries” folder for convenience. Among the aforementioned dependencies, the only one, which must be acquired by the user himself, is the Intel® MKL. After acquiring it via the Intel’s website (link shown below) and configuring it, a new tab is available in Visual Studio (Properties/Configuration Properties/Intel Performance Libraries).
 
 Link: https://software.intel.com/content/www/us/en/develop/articles/intel-math-kernel-library-intel-mkl-2020-install-guide.html?wapkw=MKL
 
-With the dependencies available in the repository and the Intel MKL enabled from Visual Studio, the following changes should take place under “Properties/ Configuration Properties”:
+With the dependencies available in the repository and the Intel® MKL enabled in Visual Studio, the following changes should take place under “Properties/ Configuration Properties”:
 
 ### Intel Performance Libraries/Intel Math Kernel Library:
 * Use Intel MKL: select “Sequential”
@@ -63,11 +62,11 @@ With the dependencies available in the repository and the Intel MKL enabled from
 ### C/C++:
 
 * General/ Additional Include Directories:
-   * $(SolutionDir)Dependencies\GLM\include
-   * $(SolutionDir)Dependencies\GLFW\include
-   * $(SolutionDir)Dependencies\glew-2.1.0\include
-   * $(SolutionDir)Dependencies\eigen-3.3.7
-   * $(SolutionDir)Dependencies\libigl-master\include
+   * $(SolutionDir)externalLibraries\GLM\include
+   * $(SolutionDir)externalLibraries\GLFW\include
+   * $(SolutionDir)externalLibraries\glew-2.1.0\include
+   * $(SolutionDir)externalLibraries\eigen-3.3.7
+   * $(SolutionDir)externalLibraries\libigl-master\include
    * $YOUR_PATH\IntelSWTools\compilers_and_libraries_2020.1.216\windows\mkl\include
 * Language/Open MP Support: Select “Yes (/openmp)”
 * Command Line: in “Additional Options” type “/Zc:twoPhase-”
@@ -75,14 +74,14 @@ With the dependencies available in the repository and the Intel MKL enabled from
 ### Linker
 
 * General/Additional Library Directories:
-   * $(SolutionDir)Dependencies\glew-2.1.0\lib\Release\x64
-   * $(SolutionDir)Dependencies\GLFW\lib-vc2019
+   * $(SolutionDir)externalLibraries\glew-2.1.0\lib\Release\x64
+   * $(SolutionDir)externalLibraries\GLFW\lib-vc2019
    * $YOUR_PATH\IntelSWTools\compilers_and_libraries_2020.1.216\windows\mkl\lib\intel64_win
    * $YOUR_PATH\IntelSWTools\compilers_and_libraries_2020.1.216\windows\compiler\lib\ia32_win
 
 * Input/Additional dependencies: "mkl_intel_thread.lib; libiomp5md.lib; mkl_sequential.lib; mkl_core.lib; mkl_intel_lp64.lib; glew32.lib; glfw3.lib; opengl32.lib; User32.lib; Gdi32.lib; Shell32.lib"
 
-
+Lastly, make sure the library "glew32.dll" is present in your "%SystemRoot%/system32" folder.
 
 
 # References:
