@@ -29,7 +29,7 @@ All methods of the current FEM class are useful to represent several peculiariti
    * Uniform & harmonic excitation pressures: set at the boundaries describing the lateral region of the eardrum. It simulates the sound stimuli that reaches that membrane
    * Damping: the acoustic resistance of the cochlear fluid (which damps the stapes movement) is set at the surface of the stapes footplate.
 
-2. All global & sparse matrices (mass, damping & stiffness) and the load vector are computed and assembled in parallel via openMP. Right after this procedure, the fixed boundary conditions are applied to the generated matrices.
+2. All global & sparse matrices (mass, damping & stiffness) and the load vector are computed and assembled in parallel via openMP. Next, the fixed boundary conditions are applied to the generated matrices.
 
 3. The frequencies of the excitation pressures are typed by the user, which -  in combination with the constrained matrices – are used to solve the linear system and provide complex-valued displacement fields.
 
@@ -43,12 +43,12 @@ All methods of the current FEM class are useful to represent several peculiariti
 
 # Instructions for Visual Studio 2019:
 
-Firstly, it must be said that the code is ready to use only if it run and set in Visual Studio 2019 and the program requires the inclusion of the following external libraries:
+Firstly, it must be said that the code is ready to use only in Visual Studio 2019 and the program requires the inclusion of the following external libraries:
 
 * Matrix manipulations & sparse linear system solvers: Eigen, Intel® MKL (called from the Eigen libraries) & openMP
 * Real-time rendering (dynamic draw calls & transformation matrices): GLFW, GLM & OpenGL
 
-The mentioned dependencies must be acquired by user and enabled in Visual Studio. However, this repository also contains a “externalLibraries” folder for convenience. Among the aforementioned dependencies, the only one, which must be acquired by the user himself, is the Intel® MKL. After acquiring it via the Intel’s website (link shown below) and configuring it, a new tab is available in Visual Studio (Properties/Configuration Properties/Intel Performance Libraries).
+The mentioned dependencies must be acquired by user and enabled in Visual Studio. However, this repository also contains a “externalLibraries” folder for convenience and most of the dependencies can be found there. The only one, which must be acquired by the user himself, is the Intel® MKL. After acquiring it via the Intel’s website (link shown below) and configuring it, a new tab is available in Visual Studio (Properties/Configuration Properties/Intel Performance Libraries).
 
 Link: https://software.intel.com/content/www/us/en/develop/articles/intel-math-kernel-library-intel-mkl-2020-install-guide.html?wapkw=MKL
 
